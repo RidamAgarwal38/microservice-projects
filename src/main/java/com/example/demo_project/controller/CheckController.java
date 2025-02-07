@@ -1,4 +1,4 @@
-package com.example.demo_project.controller;
+    package com.example.demo_project.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +21,7 @@ public class CheckController {
 
     @PutMapping("path/{id}")
     public String putMethodName(@PathVariable String id, @RequestBody String entity) {
-        //TODO: process PUT request
+        
         
         return entity;
     }
